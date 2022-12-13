@@ -19,7 +19,7 @@ module.exports = {
                 'bit-white' : '#f0f6f0'
             },
             dropShadow: {
-                'solid-orange': '25px 25px #f9a875',
+                'solid-orange': '15px 15px #f9a875',
                 'solid-red' : '-15px -15px #7c3f58'
             }
         },

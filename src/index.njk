@@ -3,13 +3,12 @@ title: Home :)
 layout: layout.njk
 ---
 
-<div class="py-20 px-20">
-    <img src="img/solar_system.jpg" alt="Composite image of the moon, Mars, Jupiter, and Saturn" class="float-right w-2/5 rounded-lg ml-10">
+<div class="py-20 px-20 grid md:grid-cols-5 gap-y-12">
 
-    <div class="max-w-max mb-16">
+    <div class="col-span-3 max-w-max">
         <h1 class="text-7xl font-bold font-alice mb-16">Hi! </h1>
         <h2 class="text-5xl font-bold font-alice">My name is Mike McDougal.</h2>
-        <div class="text-2xl font-bold font-alice text-right">
+        <div class="text-2xl font-bold font-alice lg:text-right">
             You can reach me at
             <span class="font-quicksand">mike@mcdoogs.io
                 <a href="mailto:mike@mcdoogs.io" target="_blank">
@@ -18,12 +17,16 @@ layout: layout.njk
             </span>
         </div>
     </div>
+    <div class="col-span-2 my-auto">
+        <img src="img/solar_system.jpg" alt="Composite image of the moon, Mars, Jupiter, and Saturn" class="md:flex rounded-lg mx-auto">
+    </div>
 
-    <div class="relative float-left w-2/5">
-        <img src="img/at.jpg" alt="Standing on top of the summit sign on Mt. Katahdin" class="rounded-full drop-shadow-solid-red w-2/5 absolute top-0 left-0 z-10">
+    <div class="col-span-2">
+        <img src="img/at.jpg" alt="Standing on top of the summit sign on Mt. Katahdin" class="rounded-full drop-shadow-solid-red z-10">
         <img src="img/saturn.jpg" alt="Photo of Mike looking at Saturn on a laptop screen" class="rounded-full drop-shadow-solid-orange ">
     </div>
-    <div class="text-2xl font-quicksand text-right float-right basis-3/5 w-3/5 pl-10">
+
+    <div class="col-span-3 text-2xl font-quicksand md:text-right">
         <div class="mb-8">
             I'm a developer, hiker, and amateur astrophotographer located north of Boston.
         </div>

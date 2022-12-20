@@ -8,6 +8,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy({ './_tmp/main.css': './main.css' })
     eleventyConfig.addPassthroughCopy("src/img")
+    eleventyConfig.addPassthroughCopy({ "src/img/favicon": "/" })
     
     return {
         dir: {
